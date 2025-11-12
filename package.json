@@ -1,0 +1,24 @@
+{
+  "name": "equity-agent",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest",
+    "fetch": "ts-node src/cli.ts"
+  },
+  "dependencies": {
+    "commander": "11.1.0",
+    "csv-parse": "5.5.6",
+    "p-ratelimit": "^1.0.1",
+    "papaparse": "5.4.1",
+    "yahoo-finance2": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.19",
+    "@types/papaparse": "^5.3.16",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3",
+    "vitest": "^4.0.6"
+  }
+}
